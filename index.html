@@ -1,0 +1,430 @@
+<!doctype html><html lang="zxx"><head>
+    <meta charset="UTF-8">
+    <meta name="generator" content="Silex v2.2.14">
+    <!-- leave this for stats -->
+    <script src="js/jquery.js"></script>
+    
+    
+    <script src="js/front-end.js"></script>
+    <!-- Normalize -->
+    <link href="css/normalize.css" rel="stylesheet">
+    <!-- Silex style -->
+    <link href="css/front-end.css" rel="stylesheet">
+
+    
+    <script class="silex-script"></script>
+    
+
+
+
+
+
+
+
+
+
+
+    <title>Food and drink template - Formation</title>
+    <meta name="description" content="The description displayed in search results">
+
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="Check this site, friends!">
+    <meta name="og:title" content="Check this site, friends!">
+    <meta name="twitter:description" content="The description displayed in social networks">
+    <meta name="og:description" content="The description displayed in social networks">
+    <meta name="twitter:image" content="http://localhost:6805/api/1.0/www/exec/get//tmp/food-and-drink/assets/lunch.jpg">
+    <meta name="og:image" content="http://localhost:6805/api/1.0/www/exec/get//tmp/food-and-drink/assets/lunch.jpg">
+    <meta name="twitter:site" content="@silexlabs">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+<link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" class="silex-custom-font"><link href="https://fonts.googleapis.com/css?family=Cabin" rel="stylesheet" class="silex-custom-font"><meta name="viewport" content="width=device-width, initial-scale=1"><script src="js/script.js"></script><link href="css/styles.css" rel="stylesheet"><style>body { opacity: 0; transition: .25s opacity ease; }</style></head>
+
+<body class="body-initial all-style enable-mobile prevent-resizable prevent-selectable editable-style silex-runtime silex-published" data-current-page="page-formation">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+    
+    
+    
+
+
+
+
+
+
+<div class="container-element editable-style silex-id-1552774272342-11 section-element hide-on-desktop prevent-resizable"><div class="editable-style silex-id-1552774272339-10 container-element silex-element-content website-width"></div></div><header class="container-element website-min-width editable-style silex-id-1484949224320-1 section-element prevent-resizable">
+        
+    ﻿<div class="editable-style silex-element-content website-width silex-id-1484949224320-0 container-element">
+            
+            
+            
+        <div class="editable-style silex-id-1552774225668-8 text-element prevent-resizable silex-component hide-on-desktop mobile-menu nav prevent-auto-z-index"><div class="silex-element-content normal">
+<!-- inspired by https://codepen.io/erikterwan/pen/EVzeRP -->
+<div class="hamburger-menu_1736784988095_144 closed">
+    <div class="hamburger-btn ">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+    <div class="nav-container">
+      <div class="prevent-scale">
+        <nav class="">
+            <ul>
+            
+                <li><a href="home.html">Home</a></li>
+            
+                <li><a href="menu.html">Menu</a></li>
+            
+                <li><a href="team.html">Team</a></li>
+            
+                <li><a href="info.html">Info</a></li>
+            
+                <li><a href="https://www.silex.me/" target="_blank">External link</a></li>
+            
+            </ul>
+        </nav>
+      </div>
+  </div>
+</div>
+<script>
+(function() {
+  var isOpen = false;
+  function close() {
+    isOpen = false;
+    document.querySelector('.hamburger-menu_1736784988095_144').classList.remove('open');
+    document.querySelector('.hamburger-menu_1736784988095_144').classList.add('closed');
+  }
+  function open() {
+    isOpen = true;
+    document.querySelector('.hamburger-menu_1736784988095_144').classList.add('open');
+    document.querySelector('.hamburger-menu_1736784988095_144').classList.remove('closed');
+  }
+  function toggle() {
+    if(isOpen) close();
+    else open();
+  }
+  function scrollOrResize() {
+    close();
+    move();
+  }
+  var silexElement = document.querySelector('.hamburger-menu_1736784988095_144').closest('.editable-style');
+  function move() {
+    var data = window.silex
+    var rect = silexElement.getBoundingClientRect();
+    var offset = {
+      top: rect.top + data.scrollTop,
+      left: rect.left + data.scrollLeft,
+    };
+    var container = document.querySelector('.hamburger-menu_1736784988095_144 .nav-container');
+    container.style.transform = 'translate(' + (data.scrollLeft - (offset.left/data.scale)) + 'px, ' + (data.scrollTop - (offset.top/data.scale)) + 'px)';
+  }
+  document.querySelector('.hamburger-menu_1736784988095_144 .hamburger-btn').addEventListener('click', function() { toggle(); });
+  document.addEventListener('resize', scrollOrResize);
+  document.addEventListener('scroll', scrollOrResize);
+  scrollOrResize()
+  setTimeout(() => scrollOrResize(), 0)
+})();
+</script>
+</div></div><div class="editable-style silex-id-1552774237438-9 container-element hide-on-desktop"></div><div class="editable-style image-element silex-id-1424647165395"><img src="assets/post%20divider_scroll.png" class="" alt="Decoration image">
+            </div><nav class="editable-style silex-id-1424710230648 container-element hide-on-mobile">
+                
+                
+                
+                
+            <div class="editable-style   container-element silex-id-1424710433398 editable-plugin-created">
+                    <a class="editable-style text-element silex-id-1424710332527 nav-element nav page-link-active" href="./">
+                        <div class="silex-element-content normal">Formation</div>
+                    </a>
+                </div><div class="editable-style silex-id-1426536866650 editable-plugin-created container-element">
+                    
+                <a class="editable-style text-element nav-element silex-id-1434425184890-0 nav" href="exp-rience-professionnelle.html">
+                        <div class="silex-element-content normal">Expérience professionnelle</div>
+                    </a></div><div class="editable-style editable-plugin-created container-element silex-id-1434634286306-0">
+
+                    
+                </div><div class="editable-style editable-plugin-created container-element silex-id-1434634331833-2">
+
+                    <a class="editable-style text-element nav-element silex-id-1434634331834-3 nav" href="comp-tences.html">
+                        <div class="silex-element-content normal">Compétences</div>
+                    </a>
+                </div><a class="editable-style text-element nav-element silex-id-1434634286307-1 nav" href="centre-d-int-r-ts-contact.html">
+                        <div class="silex-element-content normal">Centres d'intérêts / Contact</div>
+                    </a></nav><a class="editable-style text-element silex-id-1424647173853" href="comp-tences.html">
+                <div class="silex-element-content normal">
+                    <h1>Maël Gally</h1><h2>Etudiant en Master 1 information-communication</h2> </div>
+            </a></div></header><aside class="editable-style text-element silex-id-1736785064427-6 page-formation paged-element paragraph paged-element-visible"><div class="silex-element-content normal"><p>
+
+</p><p>Master 1 information-communication parcours médias et mondialisation (Université Paris-Panthéon-Assas)</p><p><br></p><p>
+
+</p><p>Licence information-communication (Université Paris 8) – mention très bien</p><p>Deux semestres de L3 effectués à Athènes à l’université Panteion des sciences sociales et politiques, avec le programme d’échange Erasmus + (octobre 2022 - juin 2023)</p><p>
+
+</p><p><br></p><p>Baccalauréat Scientifique spécialité SVT – mention assez bien        (Lycée Sainte Louise Paris 20)</p>
+
+<br><p></p>
+
+<br><p></p>
+
+<p></p></div></aside><div class="editable-style text-element silex-id-1736785259549-10 page-formation paged-element paragraph caption paged-element-visible" title=""><div class="silex-element-content normal">
+                    
+                    <h2>Formation</h2>
+                </div></div><aside class="editable-style text-element silex-id-1736785137299-8 page-formation paged-element paragraph paged-element-visible"><div class="silex-element-content normal"><p>
+
+
+
+
+
+</p><p>
+
+2023 - 2024 </p><p><br></p><p>&nbsp;</p><p>2022 - 2023</p><p><br></p><p><br></p><p><br></p><p><br></p><p>
+
+2022 - 2023
+
+<br></p>
+
+<p></p></div></aside></body></html>
